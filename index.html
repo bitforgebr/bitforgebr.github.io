@@ -1,36 +1,16 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+lang: pt
+description: "Escovando bits desde 1984"
 ---
+<h1>Especialistas em Software</h1>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<img src="img/home-bg.gif"/>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<p>Somos especialistas em softwares e já ajudamos dezenas de empresas a alcançar seus objetivos. Podemos ajudá-lo desde a concepção, estudo de viabilidade e escolha de tecnologia até a solução de problemas de produção, como performance insuficiente ou bugs intermitentes. Se sua empresa precisa de um apoio na área de software, em qualquer plataforma ou sistema operacional, nós podemos ajudá-lo.</p>
+
+<p>Nosso foco é oferecer consultoria e suporte especializado para ajudar sua empresa com problemas técnicos que parecem insolúveis.</p>
+
+<p>Contamos com know-how completo em sistemas operacionais Linux e MS Windows, e nas linguagens C/C++/C#, Python e Java.</p>
+
+</p><strong>Entre em contato através do endereço <a href="mailto:contact@bitforge.com.br">contact@bitforge.com.br</a> ou do telefone +55 (11) 3071-1209.</strong></p>

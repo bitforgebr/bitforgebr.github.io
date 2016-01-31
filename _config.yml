@@ -1,21 +1,30 @@
 # Site settings
-title: Clean Blog
+title: BitForge
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
-email_username:  your-email@yourdomain.com
+email: contact@bitforge.com.br
+copyright_name: BitForge Tecnologia
+description: "Especialistas em software prestando consultoria em dezenas de empresas de diferentes indústrias ou serviços."
+baseurl: "/bitforge"
+url: "http://bitforge.com.br"
+twitter_username: bitforgebr
+github_username:  bitforgebr
+facebook_username:  bitforge
+email_username: contact@bitforge.com.br
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: pretty
+permalink: /:title/
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+defaults:
+  -
+    scope:
+      path: "_posts/pt"
+    values:
+      layout: post
+      lang: en
+

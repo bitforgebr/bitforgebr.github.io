@@ -25,9 +25,9 @@
                 {% endif %}{% endfor %}
                 <li>
                 {% if page.lang == "en" %}
-                    <a href="{{ site.baseurl }}/index.html">Português</a>
+                    <a href="{{ page.url | prepend: site.baseurl }}">index.html</a>
                 {% else %}
-                    <a href="{{ site.baseurl }}/index-en.html">English</a>
+                    <a href="{{ page.url | prepend: site.baseurl }}">index-en.html</a>
                 {% endif %}
                 </li>
             </ul>
