@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: contact@bitforge.com.br
 copyright_name: BitForge Tecnologia
 description: "Especialistas em software prestando consultoria em dezenas de empresas de diferentes indústrias ou serviços."
-baseurl: ""
+baseurl: "http://bitforgebr.github.io"
 url: "http://bitforgebr.github.io"
 twitter_username: bitforgebr
 github_username:  bitforgebr
