@@ -1,6 +1,6 @@
 ---
-layout: page
-lang: en
+lang: "en"
+layout: "page"
 description: "Brushing bits"
 ---
 <h1>Software Specialists</h1>

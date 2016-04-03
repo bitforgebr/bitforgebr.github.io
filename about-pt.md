@@ -1,8 +1,6 @@
 ---
-layout: post
-lang: pt
-title: "Testando um post"
-description: "Escovando bits desde 1954"
+lang: "pt"
+layout: "page"
 title: "Sobre"
 description: "Quem é a BitForge"
 header-img: "img/about-bg.jpg"

@@ -1,6 +1,6 @@
 ---
-layout: post
-lang: pt
+lang: "pt"
+layout: "page"
 title: "Contato"
 description: ""
 header-img: "img/contact-bg.jpg"

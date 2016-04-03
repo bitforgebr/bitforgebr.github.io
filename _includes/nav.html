@@ -15,21 +15,20 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {% assign posts=site.posts | where:"lang", page.lang %}
-                {% for page in posts %}{% if page.title %}
-				{% if page.url != '/404.html' %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-				{% endif %}
-                {% endif %}{% endfor %}
-                <li>
                 {% if page.lang == "en" %}
-                    <a href="{{ site.baseurl }}/index">Português</a>
+                <li> <a href="{{ site.baseurl }}/services-en">Services</a> </li>
+                <li> <a href="{{ site.baseurl }}/industries-en">Industries</a> </li>
+                <li> <a href="{{ site.baseurl }}/about-en">About</a> </li>
+                <li> <a href="{{ site.baseurl }}/contact-en">Contact</a> </li>
+                <li> <a href="{{ site.baseurl }}/index"><img src="/img/pt.png" style="cursor: pointer;"/></a> </li>
                 {% else %}
-                    <a href="{{ site.baseurl }}/index-en">English</a>
+                <li> <a href="{{ site.baseurl }}/services-pt">Serviços</a> </li>
+                <li> <a href="{{ site.baseurl }}/industries-pt">Indústrias</a> </li>
+                <li> <a href="{{ site.baseurl }}/about-pt">Sobre</a> </li>
+                <li> <a href="{{ site.baseurl }}/contact-pt">Contato</a> </li>
+                <li> <a href="{{ site.baseurl }}/blog-pt">Blogue</a> </li>
+                <li> <a href="{{ site.baseurl }}/index-en"><img src="/img/en.png" style="cursor: pointer;"/></a> </li>
                 {% endif %}
-                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

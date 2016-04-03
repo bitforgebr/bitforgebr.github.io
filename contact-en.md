@@ -1,6 +1,6 @@
 ---
-layout: post
-lang: en
+lang: "en"
+layout: "page"
 title: "Contact"
 description: ""
 header-img: "img/contact-bg.jpg"

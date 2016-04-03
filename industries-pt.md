@@ -1,6 +1,6 @@
 ---
-layout: post
-lang: pt
+lang: "pt"
+layout: "page"
 title: "Indústrias"
 description: ""
 header-img: "img/industries-bg.jpg"

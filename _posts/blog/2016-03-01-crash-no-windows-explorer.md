@@ -1,5 +1,5 @@
 ---
-layout: "post"
+lang: "pt"
 title: "Crash no Windows Explorer"
 author: "Wanderley Caloni"
 categories: "blog"

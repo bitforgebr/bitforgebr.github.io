@@ -1,6 +1,6 @@
 ---
-layout: post
-lang: pt
+lang: "pt"
+layout: "page"
 title: "Serviços"
 description: ""
 header-img: "img/services-bg.jpg"

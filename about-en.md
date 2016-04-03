@@ -1,6 +1,6 @@
 ---
-layout: post
-lang: en
+lang: "en"
+layout: "page"
 title: "About"
 description: "Who is BitForge"
 header-img: "img/about-bg.jpg"
