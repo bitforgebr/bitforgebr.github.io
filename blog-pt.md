@@ -3,7 +3,7 @@ lang: "pt"
 layout: "page"
 title: "Blogue"
 description: "Escovando bits na prática"
-header-img: "img/blog-bg.jpg"
+header-img: "images/blog-bg.jpg"
 ---
 
 {% for post in site.categories.blog %}

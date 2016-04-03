@@ -3,7 +3,7 @@ lang: "en"
 layout: "page"
 title: "Services"
 description: ""
-header-img: "img/services-bg.jpg"
+header-img: "images/services-bg.jpg"
 ---
 <h2>Software Development</h2>
 <p>We support your company's full software development life-cycle, from concept and

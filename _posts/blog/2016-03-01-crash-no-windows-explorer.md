@@ -9,22 +9,22 @@ Quem nunca se deparou com um sistema Windows em que o Explorer travasse ou crash
 
 Um que estava me incomodando já há algum tempo era um deadlock que acabava em restart do Explorer (isso é automático no Windows 10). Para verificar o que era, antes [configurei a geração de dumps automática](http://caloni.com.br/coletando-dumps-automaticamente) para que qualquer novo crash gerasse um arquivo de dump para eu analisá-lo. Só passou algumas horas para ter algo que pudesse trabalhar:
 
-![](/img/blog/bitforge-analise-explorer-automatic-crash.png)
+![](/images/blog/bitforge-analise-explorer-automatic-crash.png)
 
 Um dump pode ser analisado pelo Visual Studio (qualquer versão) ou depuradores como WinDbg (do pacote Debugging Tools for Windows). Como análise exploratório, apenas o Visual Studio é suficiente, pois ele pode exibir coisas como os módulos carregados pelo processo e a pilha de chamadas da thread faltosa.
 
-![](/img/blog/bitforge-analise-explorer-stack.png)
+![](/images/blog/bitforge-analise-explorer-stack.png)
 
 No caso do dump que eu estava analisando, verifiquei que a thread que gerou o travamento continha uma DLL da NVidia:
 
-![](/img/blog/bitforge-analise-explorer-modules.png)
+![](/images/blog/bitforge-analise-explorer-modules.png)
 
 Essa DLL, de acordo com o AutoRuns, estava cadastrada no registro como um Context Menu Handler para o shell:
 
-![](/img/blog/bitforge-analise-explorer-autoruns.png)
+![](/images/blog/bitforge-analise-explorer-autoruns.png)
 
 Depois de desativá-la e iniciar uma nova instância do Explorer foi possível verificar que a DLL não estava mais sendo carregada pelo processo.
 
-![](/img/blog/bitforge-analise-explorer-procexp.png)
+![](/images/blog/bitforge-analise-explorer-procexp.png)
 
 E "magicamente" o travamento não aconteceu nos próximos dias =).

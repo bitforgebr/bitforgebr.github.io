@@ -3,7 +3,7 @@ lang: "en"
 layout: "page"
 title: "Industries"
 description: ""
-header-img: "img/industries-bg.jpg"
+header-img: "images/industries-bg.jpg"
 ---
 <h2>IPTV</h2>
 <p>We are well regarded in the IPTV industry as firmware specialists in many product segments such as IPTV,

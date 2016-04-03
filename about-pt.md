@@ -3,7 +3,7 @@ lang: "pt"
 layout: "page"
 title: "Sobre"
 description: "Quem é a BitForge"
-header-img: "img/about-bg.jpg"
+header-img: "images/about-bg.jpg"
 ---
 <p>A criação de uma empresa voltada para softwares complexos, de baixo nível e alta performance surgiu lentamente a partir da reunião progressiva dos programadores Gianni Rossi, fundador da BitForge IPTV, <a href="http://www.1bit.com.br">Rodrigo Strauss</a>, fundador da <a href="http://www.intelitrader.com.br">Intelitrader</a>, e <a href="http://www.caloni.com.br">Wanderley Caloni</a>, um dos fundadores da C/C++ Brasil e conhecido nas áreas de Segurança da Informação e Mercado Financeiro.</p>
 
