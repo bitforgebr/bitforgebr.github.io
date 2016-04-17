@@ -9,25 +9,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% if page.lang == "en" %}
+                <li> <a class="navbar-brand" href="{{ site.baseurl }}/index-en"><img src="/images/logo_primary_img-03.png" style="cursor: pointer; cursor: hand;"/></a> </li>
                 <li> <a href="{{ site.baseurl }}/services-en">Services</a> </li>
                 <li> <a href="{{ site.baseurl }}/industries-en">Industries</a> </li>
                 <li> <a href="{{ site.baseurl }}/about-en">About</a> </li>
                 <li> <a href="{{ site.baseurl }}/contact-en">Contact</a> </li>
-                <li> <a href="{{ site.baseurl }}/index"><img src="/images/pt.png" style="cursor: pointer;"/></a> </li>
+                <li> <a href="{{ site.baseurl }}/index"><img src="/images/pt.png" style="cursor: pointer; cursor: hand;"/></a> </li>
                 {% else %}
+                <li> <a class="navbar-brand" href="{{ site.baseurl }}"><img src="/images/logo_primary_img-03.png" style="cursor: pointer; cursor: hand;"/></a> </li>
                 <li> <a href="{{ site.baseurl }}/services-pt">Serviços</a> </li>
                 <li> <a href="{{ site.baseurl }}/industries-pt">Indústrias</a> </li>
                 <li> <a href="{{ site.baseurl }}/about-pt">Sobre</a> </li>
                 <li> <a href="{{ site.baseurl }}/contact-pt">Contato</a> </li>
                 <li> <a href="{{ site.baseurl }}/blog-pt">Blogue</a> </li>
-                <li> <a href="{{ site.baseurl }}/index-en"><img src="/images/en.png" style="cursor: pointer;"/></a> </li>
+                <li> <a href="{{ site.baseurl }}/index-en"><img src="/images/en.png" style="cursor: pointer; cursor: hand;"/></a> </li>
                 {% endif %}
             </ul>
         </div>
