@@ -5,20 +5,8 @@ title: "Blogue"
 description: "Escovando bits na prática"
 header-img: "images/blog-bg.jpg"
 ---
+Os fundadores da BitForge mantém blogues técnicos há mais de 10 anos. Há uma quantidade muito grande de conteúdo técnico e sobre o mercado de T.I., e que continua a ser atualizado.
 
-{% for post in site.categories.blog %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+ - [1bit](http://www.1bit.com.br) (Rodrigo Strauss)
+ - [Blogue do Caloni](http://www.caloni.com.br) (Wanderley Caloni)
 
