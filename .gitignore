@@ -1,4 +1,5 @@
+.bundle
+.sass-cache
 _site
-node_modules
 Gemfile.lock
-debug.txt
+.DS_Store

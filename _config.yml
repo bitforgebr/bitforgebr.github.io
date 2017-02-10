@@ -1,24 +1,34 @@
+
+exclude:
+  - "/vendor/"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".gitignore"
+
+
 # Site settings
 title: BitForge
-header-img: images/home-bg.jpg
-email: contact@bitforge.com.br
-copyright_name: BitForge Tecnologia
-description: "Especialistas em software prestando consultoria em dezenas de empresas de diferentes indústrias ou serviços."
+subtitle: "Escovadores de bits profissionais"
+url: "" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
-url: "http://bitforgebr.github.io"
-twitter_username: bitforgebr
-github_username:  bitforgebr
-facebook_username:  bitforge
-email_username: contact@bitforge.com.br
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-defaults:
-  -
-    values:
-      layout: post
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
 
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
