@@ -94,16 +94,17 @@ px      68    160    252    344    436    528    620    712    */
     font-size: 11px;
     line-height: 20px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay {
+  #portfolio-work .block .portfolio-contant ul li a .overly {
     padding-left: 15px;
+    opacity: 1;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay h2 {
+  #portfolio-work .block .portfolio-contant ul li a .overly h2 {
     padding-top: 30px;
     padding-bottom: 15px;
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay p {
+  #portfolio-work .block .portfolio-contant ul li a .overly p {
     font-size: 11px;
     line-height: 20px;
     padding-top: 15px;
@@ -290,16 +291,16 @@ px      68    160    252    */
     font-size: 11px;
     line-height: 20px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay {
+  #portfolio-work .block .portfolio-contant ul li a .overly {
     padding-left: 15px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay h2 {
+  #portfolio-work .block .portfolio-contant ul li a .overly h2 {
     padding-top: 65px;
     padding-bottom: 15px;
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay p {
+  #portfolio-work .block .portfolio-contant ul li a .overly p {
     font-size: 11px;
     line-height: 20px;
     padding-top: 15px;
