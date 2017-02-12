@@ -293,6 +293,7 @@ px      68    160    252    */
   }
   #portfolio-work .block .portfolio-contant ul li a .overly {
     padding-left: 15px;
+    opacity: 1;
   }
   #portfolio-work .block .portfolio-contant ul li a .overly h2 {
     padding-top: 65px;
@@ -305,6 +306,26 @@ px      68    160    252    */
     line-height: 20px;
     padding-top: 15px;
     padding-right: 5px;
+  }
+  #portfolio-work .block .portfolio-contant ul li:hover .position-center {
+    position: absolute;
+    top: 0%;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  #portfolio-work .block .portfolio-contant .position-center {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
   }
   /*--
 	wrapper Start 
